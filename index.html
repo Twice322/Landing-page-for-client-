@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blogr</title>
+    <link href="./style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-bg">
+        <div class="modal">
+          <div class="modal-inner">
+            <ul class="modal-menu">
+              <li class="modal-menu-item">
+                <div class="header-link">
+                  <a href="#" class="nav-link">Product</a>
+                </div>
+                <ul class="modal-submenu-list">
+                  <li class="modal-submenu-list-item">
+                    <a href="/Overview">Overview</a>
+                  </li>
+                  <li class="modal-submenu-list-item">
+                    <a href="/Pricing">Pricing</a>
+                  </li>
+                  <li class="modal-submenu-list-item">
+                    <a href="/Marketplace">Marketplace</a>
+                  </li>
+                  <li class="modal-submenu-list-item">
+                    <a href="/Features">Features</a>
+                  </li>
+                  <li class="modal-submenu-list-item">
+                    <a href="/Integrations">Integrations</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="modal-menu-item">
+                <a href="#" class="modal-menu-link">Company</a>
+                <ul class="modal-submenu-list">
+                  <li class="modal-submenu-list-item">
+                    <a href="#">About</a>
+                  </li>
+                  <li class="modal-submenu-list-item">
+                    <a href="#">Team</a>
+                  </li>
+                  <li class="modal-submenu-list-item">
+                    <a href="#">Blog</a>
+                  </li>
+                  <li class="modal-submenu-list-item">
+                    <a href="#">Careers</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="modal-menu-item">
+                <a href="#" class="modal-menu-link">Connect</a>
+                <ul class="modal-submenu-list">
+                  <li class="modal-submenu-list-item">
+                    <a href="#">Contact</a>
+                  </li>
+                  <li class="modal-submenu-list-item">
+                    <a href="#">Newsletter</a>
+                  </li>
+                  <li class="modal-submenu-list-item">
+                    <a href="#">Linkedin</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <div class="modal-menu-auth">
+              <a href="#" class="modal-menu-auth-link">Login</a>
+              <a href="#" class="modal-menu-auth-link active">Sign up</a>
+            </div>
+          </div>
+        </div>
+        <div class="container">
+          <nav class="nav-menu">
+            <div class="left-header">
+              <a href="#" class="logo">Blogr</a>
+
+              <ul class="left-header-inner">
+                <li class="header-list-item">
+                  <div class="header-link">
+                    <a href="#" class="nav-link">Product</a>
+                    <span class="arrow"></span>
+                  </div>
+                  <div class="dropdown">
+                    <ul class="menu" id="1">
+                      <li class="header-second-list-item">
+                        <a href="/Overview" class="link">Overview</a>
+                      </li>
+                      <li class="header-second-list-item">
+                        <a href="/Pricing" class="link">Pricing</a>
+                      </li>
+                      <li class="header-second-list-item">
+                        <a href="/Marketplace" class="link">Marketplace</a>
+                      </li>
+                      <li class="header-second-list-item">
+                        <a href="/Features" class="link">Features</a>
+                      </li>
+                      <li class="header-second-list-item">
+                        <a href="/Integrations" class="link">Integrations</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="header-list-item">
+                  <div class="header-link">
+                    <a href="#" class="nav-link">Company</a>
+                    <span class="arrow"></span>
+                  </div>
+                  <div class="dropdown">
+                    <ul class="menu" id="2">
+                      <li class="header-second-list-item">
+                        <a href="/About" class="link">About</a>
+                      </li>
+                      <li class="header-second-list-item">
+                        <a href="/Team" class="link">Team</a>
+                      </li>
+                      <li class="header-second-list-item">
+                        <a href="/Blog" class="link">Blog</a>
+                      </li>
+                      <li class="header-second-list-item">
+                        <a href="/Careers" class="link">Careers</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="header-list-item">
+                  <div class="header-link">
+                    <a href="#" class="nav-link">Content</a>
+                    <span class="arrow"></span>
+                  </div>
+                  <div class="dropdown">
+                    <ul class="menu" id="3">
+                      <li class="header-second-list-item">
+                        <a href="/Contact" class="link">Contact</a>
+                      </li>
+                      <li class="header-second-list-item">
+                        <a href="/Newsletter" class="link">Newsletter</a>
+                      </li>
+                      <li class="header-second-list-item">
+                        <a href="/Linkedin" class="link">Linkedin</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="right-header">
+              <a href="#" class="right-nav-link">Login</a>
+              <a href="#" class="right-nav-link">Sign up</a>
+              <img src="./img/icon-hamburger.svg" class="header-burger show" />
+            </div>
+            <button class="burger-header">
+              <img src="./img/icon-hamburger.svg" class="burger-menu" />
+              <img src="./img/icon-close.svg" class="close-modal-btn" />
+            </button>
+          </nav>
+
+          <div class="subtitle-container">
+            <h2 class="subtitle">A modern publishing platform</h2>
+            <h2 class="slogan">Grow your audience and build online brand</h2>
+          </div>
+          <div class="btn-section">
+            <a class="btn" href="#">Start for Free</a>
+            <a class="btn" href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="design">
+      <div class="design-bg">
+        <div class="container">
+          <h2 class="design-title">Designed for the future</h2>
+          <div class="flex-container">
+            <div class="image-block">
+              <img
+                src="./img/illustration-editor-desktop.svg"
+                class="illustraiton-editor"
+              />
+            </div>
+            <div class="order">
+              <div class="text-block">
+                <h2 class="block-title">Introducing an extensible editor</h2>
+                <p class="block-content">
+                  Blogr features an exceedingly intuitive interface which lets
+                  you focus on one thing: creating content. The editor supports
+                  management of multiple blogs and allows easy manipulation of
+                  embeds such as images, videos, and Markdown. Extensibility
+                  with plugins and themes provide ease ways to add functionality
+                  or change the looks of a blog.
+                </p>
+              </div>
+
+              <div class="text-block">
+                <h2 class="block-title">Robust content management</h2>
+                <p class="block-content">
+                  Flexible content management enables users to easily move
+                  through posts. Increase the usability of your blog by adding
+                  customized categories, format, or flow. With this
+                  functionality, you're in full control.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="phones">
+      <div class="phones-bg">
+        <div class="container">
+          <div class="phones-flex">
+            <div class="phones-imgs-block">
+              <img src="./img/illustration-phones.svg" class="phones-imgs" />
+            </div>
+            <div class="phones-text-block">
+              <h2 class="phones-text-block-title">
+                State of the Art Infrastructure
+              </h2>
+              <p class="phones-text-block-content">
+                With reliability and speed in mind, worldwide data centers
+                provide the backbone for ultra-fast connectivity. This ensures
+                your site will load instantly, no matter where your readers are,
+                keeping your site competitive.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="flex-container">
+        <div class="image-block">
+          <img
+            src="./img/illustration-laptop-desktop.svg"
+            class="illustraiton-editor"
+          />
+        </div>
+        <div class="order">
+          <div class="text-block">
+            <h2 class="block-title">Free, open, simple</h2>
+            <p class="block-content">
+              Blogr is a free and open source application backed by a large
+              community of helpful developers. it support features such as code
+              syntax highlighting. RSS feeds, social media integration,
+              third-party commenting tools, and works seamlessly with Google
+              Analytics. The architecture is clean and is relatively easy to
+              learn.
+            </p>
+          </div>
+
+          <div class="text-block">
+            <h2 class="block-title">Powerful tooling</h2>
+            <p class="block-content">
+              Batteries included. We built a simple and straightforward CLI tool
+              that makes customization and deployment a breeze, but capable of
+              producing even the most complicated sites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-bg">
+        <div class="container">
+          <div class="footer-wrapper">
+            <ul class="list-wrapper">
+              <li class="footer-logo">
+                <img src="./img/logo.svg" class="footer-logo" />
+              </li>
+              <li class="list-item">
+                <ul class="lists">
+                  <li class="ul-header">Product</li>
+                  <ul>
+                    <li class="second-list-item">
+                      <a href="#" class="link">Overview</a>
+                    </li>
+                    <li class="second-list-item">
+                      <a href="#" class="link">Pricing</a>
+                    </li>
+                    <li class="second-list-item">
+                      <a href="#" class="link">Marketplace</a>
+                    </li>
+                    <li class="second-list-item">
+                      <a href="#" class="link">Features</a>
+                    </li>
+                    <li class="second-list-item">
+                      <a href="#" class="link">Integrations</a>
+                    </li>
+                  </ul>
+                </ul>
+              </li>
+
+              <li class="list-item">
+                <ul class="lists">
+                  <li class="ul-header">Company</li>
+                  <ul>
+                    <li class="second-list-item">
+                      <a href="#" class="link">About</a>
+                    </li>
+                    <li class="second-list-item">
+                      <a href="#" class="link">Team</a>
+                    </li>
+                    <li class="second-list-item">
+                      <a href="#" class="link">Blog</a>
+                    </li>
+                    <li class="second-list-item">
+                      <a href="#" class="link">Careers</a>
+                    </li>
+                  </ul>
+                </ul>
+              </li>
+              <li class="list-item">
+                <ul class="lists">
+                  <li class="ul-header">Connect</li>
+                  <ul>
+                    <li class="second-list-item">
+                      <a href="#" class="link">Contact</a>
+                    </li>
+                    <li class="second-list-item">
+                      <a href="#" class="link">Newsletter</a>
+                    </li>
+                    <li class="second-list-item">
+                      <a href="#" class="link">Linkedin</a>
+                    </li>
+                  </ul>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
